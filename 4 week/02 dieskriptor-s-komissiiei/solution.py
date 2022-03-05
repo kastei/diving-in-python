@@ -8,6 +8,3 @@ class Value():
     
     def __set__(self, instance, value):
         self.value = (1 - instance.commission) * value
-
-
-
